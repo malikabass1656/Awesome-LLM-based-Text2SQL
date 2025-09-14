@@ -8,12 +8,35 @@
       <a href="http://makeapullrequest.com"><img src="https://img.shields.io/github/last-commit/DEEP-PolyU/Awesome-LLM-based-Text2SQL?color=blue"/></a>
 </div>
 
-This repository provides a comprehensive collection of research papers, benchmarks, and open-source projects on **large language model-based text-to-SQL (LLM-based Text-to-SQL)**. It includes all the contents from our survey paper *[**"Next-Generation Database Interfaces: A Survey of LLM-based Text-to-SQL"**](https://arxiv.org/pdf/2406.08426)* and will be continuously updated to incorporate the latest advances and notable contributions from the text-to-SQL community. Stay tuned!!
+This repository provides a comprehensive collection of research papers, benchmarks, and open-source projects on **large language model-based text-to-SQL (LLM-based Text-to-SQL)**. It includes all the contents from our survey paper *"[**Next-Generation Database Interfaces: A Survey of LLM-based Text-to-SQL**](https://arxiv.org/pdf/2406.08426)"* and will be continuously updated to incorporate the up-to-date advances and notable contributions from the text-to-SQL community. Stay tuned!!
+
+🤗 **You are vey welcome to contribute to this repository** by launching an issue or a pull request. If you find any missing resources or come across interesting new research works, please don’t hesitate to open an issue or submit a PR!
 
 ## 🔥 News
 
 * **[2025-09-14]** 🔥🔥 Repository launched based on our survey paper to keep track of recent progress in LLM-based text-to-SQL.
 * **[2025-09-02]** 🎉🎉 Our paper *"Next-Generation Database Interfaces: A Survey of LLM-based Text-to-SQL"* has been **accepted by *IEEE Transactions on Knowledge and Data Engineering (TKDE)*!**
+
+---
+
+<div>
+<h3 align="center">
+       <p align="center"><img width="80%" src="figures/overview.pdf" /></p>
+    <p align="center"><em>Overview of LLM-based Text-to-SQL Workflow. </em></p>
+</div>
+
+A user asks a question about football leagues. The LLM takes this question together with the schema of the corresponding database as input and generates an SQL query as output. The generated SQL query is then executed on the database, retrieving the result *"The 5 leagues with the highest matches"*, which answers the user's question.
+
+
+## 📈 Trends
+
+<div align="center">
+<img src="figures/trends.pdf" border="0" width=800px/>
+</div>
+
+## 🪴 Taxonomy
+
+
 
 ## 📃 Citation
 
@@ -25,3 +48,4 @@ This repository provides a comprehensive collection of research papers, benchmar
   year={2024}
 }
 ```
+
