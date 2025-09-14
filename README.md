@@ -8,7 +8,12 @@
       <a href="http://makeapullrequest.com"><img src="https://img.shields.io/github/last-commit/DEEP-PolyU/Awesome-LLM-based-Text2SQL?color=blue"/></a>
 </div>
 
-This repository contains a comprehensive collections of research papers, benchmarks, and open-source projects on large language model-based text-to-SQL (LLM-based Text-to-SQL). All the contents of our survey paper "[**Next-Generation Database Interfaces: A Survey of LLM-based Text-to-SQL**](https://arxiv.org/pdf/2406.08426)" are included in this repository, and which will continuously updating to include more latest impressive works in text-to-SQL community. Please stay tuned!!
+This repository provides a comprehensive collection of research papers, benchmarks, and open-source projects on **large language model-based text-to-SQL (LLM-based Text-to-SQL)**. It includes all the contents from our survey paper *[**"Next-Generation Database Interfaces: A Survey of LLM-based Text-to-SQL"**](https://arxiv.org/pdf/2406.08426)* and will be continuously updated to incorporate the latest advances and notable contributions from the text-to-SQL community. Stay tuned!!
+
+## 🔥 News
+
+* **[2025-09-14]** 🔥🔥 Repository launched based on our survey paper to keep track of recent progress in LLM-based text-to-SQL.
+* **[2025-09-02]** 🎉🎉 Our paper *"Next-Generation Database Interfaces: A Survey of LLM-based Text-to-SQL"* has been **accepted by *IEEE Transactions on Knowledge and Data Engineering (TKDE)*!**
 
 ## 📃 Citation
 
