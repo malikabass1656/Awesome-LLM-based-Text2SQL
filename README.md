@@ -21,7 +21,7 @@ This repository provides a comprehensive collection of research papers, benchmar
 
 <div>
 <h3 align="center">
-       <p align="center"><img width="80%" src="figures/overview.png" /></p>
+       <p align="center"><img width="80%" src="figures/overview.svg" /></p>
     <p align="center"><em>Overview of LLM-based Text-to-SQL Workflow. </em></p>
 </div>
 
@@ -31,7 +31,7 @@ A user asks a question about football leagues. The LLM takes this question toget
 ## 📈 Trends
 
 <div align="center">
-<img src="figures/trends.png" border="0" width=800px/>
+<img src="figures/trends.svg" border="0" width=800px/>
 </div>
 
 
