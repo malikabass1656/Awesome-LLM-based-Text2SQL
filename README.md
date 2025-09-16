@@ -30,8 +30,8 @@ This repository provides a comprehensive collection of research papers, benchmar
 
 A user asks a question about football leagues. The LLM takes this question together with the schema of the corresponding database as input and generates an SQL query as output. The generated SQL is then executed on the database, retrieving the result *"The 5 leagues with the highest matches"*, which answers the user's question.
 
-> \[!TABLE OF CONTENTS\]
 > **[Awesome-LLM-based-Text2SQL](#-awesome-llm-based-text2sql)**
+>
 >  - **[📈 Trends](#-trends)**
 >  - **[📜 Surveys](#-surveys)**
 >  - **[🗃️ Datasets](#-datasets)**
