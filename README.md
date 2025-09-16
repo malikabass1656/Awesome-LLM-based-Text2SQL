@@ -32,19 +32,19 @@ A user asks a question about football leagues. The LLM takes this question toget
 
 > \[!TABLE OF CONTENTS\]
 > **[Awesome-LLM-based-Text2SQL](#-awesome-llm-based-text2sql)**
-  - **[📈 Trends](#-trends)**
-  - **[📜 Surveys](#-surveys)**
-  - **[🗃️ Datasets](#-datasets)**
-    - [Original Datasets](#)
-      - [Long-context](#)
-    - [Post-annotated Datasets](#)
-      - [Robustness](#)
-  - **[🪴 Taxonomy](#-taxonomy)**
-    - [In-cotext Learning](#)
-      - [Decomposition](#)
-    - [Fine-tuning](#)
-      - [Pre-training](#)
-  - **[📃 Citation](#-citation)**
+>  - **[📈 Trends](#-trends)**
+>  - **[📜 Surveys](#-surveys)**
+>  - **[🗃️ Datasets](#-datasets)**
+>    - [Original Datasets](#)
+>      - [Long-context](#)
+>    - [Post-annotated Datasets](#)
+>      - [Robustness](#)
+>  - **[🪴 Taxonomy](#-taxonomy)**
+>    - [In-cotext Learning](#)
+>      - [Decomposition](#)
+>    - [Fine-tuning](#)
+>      - [Pre-training](#)
+>  - **[📃 Citation](#-citation)**
 
 ---
 
