@@ -18,7 +18,7 @@ This repository provides a comprehensive collection of research papers, benchmar
 
 * **[2025-09-14]** 🔥🔥 Repository launched based on our survey paper to keep track of recent progress in LLM-based text-to-SQL.
 * **[2025-09-02]** 🎉🎉 Our paper *"Next-Generation Database Interfaces: A Survey of LLM-based Text-to-SQL"* has been **accepted by *IEEE Transactions on Knowledge and Data Engineering (TKDE)*!**
-* **[2025-05-01]** 🎉🎉 Our paper *"Struture-Guided Large Language Models for Text-to-SQL Generation"* has been **accepted by *International Conference on Machine Learning (ICML)*!**
+* **[2025-05-01]** 🎉🎉 Our paper *"Struture-Guided Large Language Models for Text-to-SQL Generation"* has been **accepted by *International Conference of Machine Learning (ICML)*!**
 
 ---
 
@@ -28,7 +28,7 @@ This repository provides a comprehensive collection of research papers, benchmar
     <p align="center"><em>Overview of LLM-based Text-to-SQL Workflow </em></p>
 </div>
 
-A user asks a question about football leagues. The LLM takes this question together with the schema of the corresponding database as input and generates an SQL query as output. The generated SQL query is then executed on the database, retrieving the result *"The 5 leagues with the highest matches"*, which answers the user's question.
+A user asks a question about football leagues. The LLM takes this question with the schema of the corresponding database as input and generates an SQL query as output. The generated SQL is then executed on the database, retrieving the result *"The 5 leagues with the highest matches"*, which answers the user's question.
 
 - **[Awesome-LLM-based-Text2SQL](#-awesome-llm-based-text2sql)**
   - **[📈 Trends](#-trends)**
