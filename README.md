@@ -14,6 +14,8 @@ This repository provides a comprehensive collection of research papers, benchmar
 
 📫 **Contact us via emails:**  `zijin.hong@connect.polyu.hk` or `qinggang.zhang@polyu.edu.hk`
 
+**📃 Please [cite our paper](#-citation)** if you find our survey or repository helpful!
+
 ## 🔥 News
 
 * **[2025-09-14]** 🔥🔥 Repository launched based on our survey paper to keep track of recent progress in LLM-based text-to-SQL.
