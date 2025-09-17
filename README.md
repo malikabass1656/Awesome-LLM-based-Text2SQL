@@ -56,12 +56,11 @@ A user asks a question about football leagues. The LLM takes this question toget
        <p align="center"><img width="100%" src="figures/trends.svg" /></p>
     <p align="center"><em>A Sketch of Research Trends in the Field of Text-to-SQL with Representative Works </em></p>
 </div>
-
 Before 2023, the focus is on a selection of representative traditional studies. However, from 2023 onward, the emphasis shifts to the rapid advancements driven by LLMs, marking a significant acceleration in the field.
 
-## 🗃️ Datasets
-
 ## 📜 Surveys
+
+## 🗃️ Datasets
 
 ## 🪴 Taxonomy
 
