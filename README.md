@@ -12,7 +12,7 @@ This repository provides a comprehensive collection of research papers, benchmar
 
 🤗 **You are vey welcome to contribute to this repository** by launching an issue or a pull request. If you find any missing resources or come across interesting new research works, please don’t hesitate to open an issue or submit a PR!
 
-📫 **Contact us via emails:**  `zijin[dot]hong[at]connect[dot]polyu[dot]hk` or `qinggang[dot]zhang[at]polyu[dot]edu[dot]hk`
+📫 **Contact us:**  `zijin[dot]hong[at]connect[dot]polyu[dot]hk` or  `qinggang[dot]zhang[at]polyu[dot]edu[dot]hk`
 
 **📃 Please [cite our paper](#-citation)** if you find our survey or repository helpful!
 
