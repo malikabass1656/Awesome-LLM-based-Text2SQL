@@ -41,8 +41,8 @@ A user asks a question about football leagues. The LLM takes this question toget
 >  - **[📰 Surveys](#-surveys)**
 >  - **[🏆 Benchmarks](#-benchmarks)**
 >  - **[🗃️ Datasets](#️-datasets)**
-     - [Original Datasets](#original-datasets)
-     - [Post-annotated Datasets](#post-annotated-datasets)
+>    - [Original Datasets](#original-datasets)
+>    - [Post-annotated Datasets](#post-annotated-datasets)
 >  - **[🪴 Taxonomy](#-taxonomy)**
 >    - [In-cotext Learning](#)
 >      - [Decomposition](#)
@@ -76,7 +76,7 @@ Before 2023, the focus is on a selection of representative traditional studies. 
 
 ## 🏆 Benchmarks
 
-In the era of LLMs, two benchmarks and their variants/extensions are widely recognized for evaluating text-to-SQL capabilities. **We will continually update the top five methods on each benchmark** to showcase the latest advances in the text-to-SQL community. These benchmarks, along with other text-to-SQL dataset papers, are listed in the [datasets section](#️-datasets) below.
+In the era of LLMs, two benchmarks and their variants/extensions are widely recognized for evaluating text-to-SQL capabilities. **We will continually update the top five methods on each benchmark** to showcase the latest advances in the text-to-SQL community. These benchmarks, along with other text-to-SQL dataset papers, are listed in the [datasets section](#-datasets) below.
 
 #### [BIRD](https://bird-bench.github.io/) - A Big Bench for Large-Scale Database Grounded Text-to-SQL
 
