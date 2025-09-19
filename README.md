@@ -78,6 +78,37 @@ Before 2023, the focus is on a selection of representative traditional studies. 
 
 In the era of LLMs, two benchmarks and their variants/extensions are widely recognized for evaluating text-to-SQL capabilities. **We will continually update the top five methods on each benchmark** to showcase the latest advances in the text-to-SQL community. These benchmarks, along with other text-to-SQL dataset papers, are listed in the [datasets section](#-datasets) below.
 
+<div style="overflow-x: auto; font-size: 14px;">
+<table>
+  <thead>
+    <tr>
+      <th style="min-width:160px;">Method/Model</th>
+      <th style="min-width:100px;">Dev EX (%)</th>
+      <th style="min-width:100px;">Test EX (%)</th>
+      <th style="min-width:300px;">Institute - Paper/Code</th>
+      <th style="min-width:90px;">Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>LongData-SQL</td>
+      <td>74.32</td>
+      <td><b>77.53</b></td>
+      <td><i>LongShine AI Research</i> - Proprietary</td>
+      <td>2025-07-14</td>
+    </tr>
+    <tr>
+      <td>AskData + GPT-4o</td>
+      <td><b>75.36</b></td>
+      <td>77.14</td>
+      <td><i>AT&amp;T CDO - DSAIR</i> - <img src="https://img.shields.io/badge/arXiv2025-B31B1B"> 
+          <a href="https://arxiv.org/pdf/2505.19988">[Paper]</a></td>
+      <td>2025-03-11</td>
+    </tr>
+    <!-- 其余行照此格式 -->
+  </tbody>
+</table>
+
 #### [BIRD](https://bird-bench.github.io/) - A Big Bench for Large-Scale Database Grounded Text-to-SQL
 
 | Date       | Method/Model       | Dev EX (%) | Test EX (%) | Institute - Paper/Code                                       |
