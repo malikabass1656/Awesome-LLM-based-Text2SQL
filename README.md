@@ -40,9 +40,9 @@ A user asks a question about football leagues. The LLM takes this question toget
 >  - **[📈 Trends](#-trends)**
 >  - **[📰 Surveys](#-surveys)**
 >  - **[🏆 Benchmarks](#-benchmarks)**
->  - **[🗄️ Datasets](#-datasets)**
->    - [Original Datasets](#original-datasets)
->    - [Post-annotated Datasets](#post-annotated-datasets)
+>  - **[🗃️ Datasets](#️-datasets)**
+    - [Original Datasets](#original-datasets)
+    - [Post-annotated Datasets](#post-annotated-datasets)
 >  - **[🪴 Taxonomy](#-taxonomy)**
 >    - [In-cotext Learning](#)
 >      - [Decomposition](#)
@@ -76,7 +76,7 @@ Before 2023, the focus is on a selection of representative traditional studies. 
 
 ## 🏆 Benchmarks
 
-In the era of LLMs, two benchmarks and their variants/extensions are widely recognized for evaluating text-to-SQL capabilities. **We will continually update the top five methods on each benchmark** to showcase the latest advances in the text-to-SQL community. These benchmarks, along with other text-to-SQL dataset papers, are listed in the [datasets section](#-datasets) below.
+In the era of LLMs, two benchmarks and their variants/extensions are widely recognized for evaluating text-to-SQL capabilities. **We will continually update the top five methods on each benchmark** to showcase the latest advances in the text-to-SQL community. These benchmarks, along with other text-to-SQL dataset papers, are listed in the [datasets section](#️-datasets) below.
 
 #### [BIRD](https://bird-bench.github.io/) - A Big Bench for Large-Scale Database Grounded Text-to-SQL
 
@@ -140,7 +140,7 @@ In the era of LLMs, two benchmarks and their variants/extensions are widely reco
 | Qwen-3-Coder-480B | 17.75 | 2025-08-22 |
 | DeepSeek-V3 | 15.15 | 2025-08-22 |
 
-## 🗄️ Datasets
+## 🗃️ Datasets
 
 **We categorize the datasets into *Original Datasets* and *Post-annotated Datasets*** based on whether they were released with the original dataset (question–SQL pairs) and databases, or were developed by adapting existing datasets and databases with special settings. The *Post-annotated Datasets* rely on the databases from [Spider 1.0](https://yale-lily.github.io/spider). For each original dataset, we list its characteristics, number of examples, and number of databases under the dataset title.
 
