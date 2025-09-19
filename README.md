@@ -12,7 +12,7 @@ This repository provides a comprehensive collection of research papers, benchmar
 
 🤗 **You are vey welcome to contribute to this repository** by launching an issue or a pull request. If you find any missing resources or come across interesting new research works, please don’t hesitate to open an issue or submit a PR!
 
-📫 **Contact us:**  `zijin[dot]hong[at]connect[dot]polyu[dot]hk`,  `qinggang[dot]zhang[at]polyu[dot]edu[dot]hk`
+📫 **Contact us via emails:** Please drop an email   `zijin[dot]hong[at]connect[dot]polyu[dot]hk`,  `qinggang[dot]zhang[at]polyu[dot]edu[dot]hk`
 
 **📃 Please [cite our paper](#-citation)** if you find our survey or repository helpful!
 
@@ -145,7 +145,7 @@ The text-to-SQL methods are carefully categorized based on our paper.
   title={Next-generation database interfaces: A survey of llm-based text-to-sql},
   author={Hong, Zijin and Yuan, Zheng and Zhang, Qinggang and Chen, Hao and Dong, Junnan and Huang, Feiran and Huang, Xiao},
   journal={IEEE Transactions on Knowledge and Data Engineering},
-  year={2024}
+  year={2025}
 }
 ```
 
