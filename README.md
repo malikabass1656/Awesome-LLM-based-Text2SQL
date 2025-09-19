@@ -74,15 +74,32 @@ Before 2023, the focus is on a selection of representative traditional studies. 
 * ![arXiv2022](https://img.shields.io/badge/arXiv2022-B31B1B) A Survey on Text-to-SQL Parsing: Concepts, Methods, and Future Directions [[Paper]()]
 * ![COLING2022](https://img.shields.io/badge/COLING2022-00CED1) Recent Advances in Text-to-SQL: A Survey of What We Have and What We Expect [[Paper]()]
 
+## 🏆 Benchmarks
+
+In the era of LLMs, two benchmarks and their variants/extensions are widely recognized for evaluating text-to-SQL capabilities. **We will continually update the top five methods on each benchmark** to showcase the latest advances in the text-to-SQL community. These benchmarks, along with other text-to-SQL dataset papers, are listed in the [datasets section](#-datasets) below.
+
+#### [BIRD](https://bird-bench.github.io/) - A Big Bench for Large-Scale Database Grounded Text-to-SQL
+
+| Date       | Method/Model       | Dev EX (%) | Test EX (%) | Paper/Code                                                   |
+| ---------- | ------------------ | ---------- | ----------- | ------------------------------------------------------------ |
+| 2025-07-14 | LongData-SQL       | 74.32      | **77.53**   | *LongShine AI Research* - Proprietary                        |
+| 2025-03-11 | AskData + GPT-4o   | **75.36**  | 77.14       | *AT&T CDO - DSAIR* - ![arXiv2025](https://img.shields.io/badge/arXiv2025-B31B1B) [[Paper](https://arxiv.org/pdf/2505.19988)] |
+| 2025-04-16 | CHASE-SQL + Gemini | 74.90      | 76.02       | *Google Cloud* - ![ICLR2025](https://img.shields.io/badge/ICLR2025-7CFC00) [[Paper](https://openreview.net/pdf?id=CvGqMD5OtX)] |
+| 2025-05-30 | TCDataAgent-SQL    | 74.12      | 75.74       | *Tencent Cloud* - Proprietary                                |
+| 2025-02-27 | Contextual-SQL     | 73.50      | 75.63       | *Contextual AI* - [[Report](https://contextual.ai/blog/open-sourcing-the-best-local-text-to-sql-system/)] [[Code](https://github.com/ContextualAI/bird-sql)] |
+| 2024-12-17 | XiYan-SQL          | 73.34      | 75.63       | *Alibaba Cloud* - ![arXiv2024](https://img.shields.io/badge/arXiv2024-B31B1B) [[Paper](https://arxiv.org/pdf/2411.08599)] [[Code](https://github.com/XGenerationLab/XiYan-SQL)] |
+
+#### [Spider]() - Semantic Parsing and Text-to-SQL Challenge
+
 ## 🗃️ Datasets
-
-
 
 ## 🪴 Taxonomy
 
+The text-to-SQL methods are carefully categorized based on our paper.
+
 ### In-context Learning
 
-
+### Fine-tuning
 
 ## 📃 Citation
 
