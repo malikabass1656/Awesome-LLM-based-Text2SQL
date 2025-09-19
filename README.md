@@ -153,7 +153,7 @@ The text-to-SQL methods are carefully categorized based on our paper.
 ## 📃 Citation
 
 ```
-@article{hong2024next,
+@article{hong2025next,
   title={Next-generation database interfaces: A survey of llm-based text-to-sql},
   author={Hong, Zijin and Yuan, Zheng and Zhang, Qinggang and Chen, Hao and Dong, Junnan and Huang, Feiran and Huang, Xiao},
   journal={IEEE Transactions on Knowledge and Data Engineering},
