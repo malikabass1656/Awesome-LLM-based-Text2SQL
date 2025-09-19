@@ -147,25 +147,25 @@ In the era of LLMs, two benchmarks and their variants/extensions are widely reco
 
 ### Original Datasets
 
-* **BIRD-CRITIC** | ![arXiv2025](https://img.shields.io/badge/arXiv2025-B31B1B) SWE-SQL: Illuminating LLM Pathways to Solve User SQL Issues in Real-World Applications [[Paper]()] [[Code]()] [[Dataset]()]
+* **BIRD-CRITIC** | ![arXiv2025](https://img.shields.io/badge/arXiv2025-B31B1B) SWE-SQL: Illuminating LLM Pathways to Solve User SQL Issues in Real-World Applications [[Paper]()] [[Code]()] [[Dataset]()]<br>
   *Knowledge-augmented, Long-context; #Example: 600; #DB: 95*
-* **Spider2.0** | ![ICLR2025](https://img.shields.io/badge/ICLR2025-7CFC00) Spider 2.0: Evaluating Language Models on Real-world Enterprise Text-to-SQL Workflows [[Paper]()] [[Code]()] [[Dataset]()]
+* **Spider2.0** | ![ICLR2025](https://img.shields.io/badge/ICLR2025-7CFC00) Spider 2.0: Evaluating Language Models on Real-world Enterprise Text-to-SQL Workflows [[Paper]()] [[Code]()] [[Dataset]()]<br>
   *Knowledge-augmented, Long-context; #Example: 632; #DB: 213*
-* **BULL** | ![SIGMOD2025](https://img.shields.io/badge/SIGMOD2025-8A2BE2) FinSQL: Model-Agnostic LLMs-based Text-to-SQL Framework for Financial Analysis [[Paper](https://arxiv.org/pdf/2401.10506)] [[Code](https://github.com/bigbigwatermalon/FinSQL)] [[Dataset]()]
+* **BULL** | ![SIGMOD2025](https://img.shields.io/badge/SIGMOD2025-8A2BE2) FinSQL: Model-Agnostic LLMs-based Text-to-SQL Framework for Financial Analysis [[Paper](https://arxiv.org/pdf/2401.10506)] [[Code](https://github.com/bigbigwatermalon/FinSQL)] [[Dataset]()]<br>
   *Knowledge-augmented, Long-context; #Example: 4,966; #DB: 3*
-* **BIRD** | ![NeurIPS2023](https://img.shields.io/badge/NeurIPS2023-2E8B57) Can LLM Already Serve as A Database Interface? A BIg Bench for Large-Scale Database Grounded Text-to-SQLs [[Paper](https://openreview.net/pdf?id=dI4wzAE6uV)] [[Code]()] [[Dataset]()]
+* **BIRD** | ![NeurIPS2023](https://img.shields.io/badge/NeurIPS2023-2E8B57) Can LLM Already Serve as A Database Interface? A BIg Bench for Large-Scale Database Grounded Text-to-SQLs [[Paper](https://openreview.net/pdf?id=dI4wzAE6uV)] [[Code]()] [[Dataset]()]<br>
   *Cross-domain, Knowledge-augmented; #Example: 12,751; #DB: 95*
-* **KaggleDBQA** | ![ACL2021](https://img.shields.io/badge/ACL2021-1E90FF) KaggleDBQA: Realistic Evaluation of Text-to-SQL Parsers [[Paper](https://aclanthology.org/2021.acl-long.176.pdf)] [[Code](https://github.com/Chia-Hsuan-Lee/KaggleDBQA)] [[Dataset]()]
+* **KaggleDBQA** | ![ACL2021](https://img.shields.io/badge/ACL2021-1E90FF) KaggleDBQA: Realistic Evaluation of Text-to-SQL Parsers [[Paper](https://aclanthology.org/2021.acl-long.176.pdf)] [[Code](https://github.com/Chia-Hsuan-Lee/KaggleDBQA)] [[Dataset]()]<br>
   *Cross-domain; #Example: 272; #DB: 8*
-* **DuSQL** | ![EMNLP2020](https://img.shields.io/badge/EMNLP2020-00BFFF) DuSQL: A Large-Scale and Pragmatic Chinese Text-to-SQL Dataset [[Paper](https://aclanthology.org/2020.emnlp-main.562.pdf)] [[Dataset](https://www.luge.ai/#/luge/dataDetail?id=13)]
+* **DuSQL** | ![EMNLP2020](https://img.shields.io/badge/EMNLP2020-00BFFF) DuSQL: A Large-Scale and Pragmatic Chinese Text-to-SQL Dataset [[Paper](https://aclanthology.org/2020.emnlp-main.562.pdf)] [[Dataset](https://www.luge.ai/#/luge/dataDetail?id=13)]<br>
   *Cross-domain, Cross-lingual; #Example: 23,797; #DB: 200*
-* **SQUALL** | ![Findings2020](https://img.shields.io/badge/EMNLP2020Findings-87CEFA) On the Potential of Lexico-logical Alignments for Semantic Parsing to SQL Queries [[Paper](https://aclanthology.org/2020.findings-emnlp.167.pdf)] [[Code](https://github.com/tzshi/squall)] 
+* **SQUALL** | ![Findings2020](https://img.shields.io/badge/EMNLP2020Findings-87CEFA) On the Potential of Lexico-logical Alignments for Semantic Parsing to SQL Queries [[Paper](https://aclanthology.org/2020.findings-emnlp.167.pdf)] [[Code](https://github.com/tzshi/squall)] <br>
   *Cross-domain, Cross-lingual; #Example: 11,468; #DB: 1,679*
-* **CoSQL** | ![EMNLP2019](https://img.shields.io/badge/EMNLP2019-00BFFF) CoSQL: A Conversational Text-to-SQL Challenge Towards Cross-Domain Natural Language Interfaces to Databases [[Paper](https://aclanthology.org/D19-1204.pdf)] [[Code](https://github.com/taoyds/cosql)] [[Dataset](https://drive.usercontent.google.com/download?id=1Y3ydpFiQQ3FC0bzdfy3groV95O_f1nXF&export=download&authuser=0)]
+* **CoSQL** | ![EMNLP2019](https://img.shields.io/badge/EMNLP2019-00BFFF) CoSQL: A Conversational Text-to-SQL Challenge Towards Cross-Domain Natural Language Interfaces to Databases [[Paper](https://aclanthology.org/D19-1204.pdf)] [[Code](https://github.com/taoyds/cosql)] [[Dataset](https://drive.usercontent.google.com/download?id=1Y3ydpFiQQ3FC0bzdfy3groV95O_f1nXF&export=download&authuser=0)]<br>
   *Cross-domain, Context-dependent; #Example: 15,598; #DB: 200*
-* **Spider** | ![EMNLP2018](https://img.shields.io/badge/EMNLP2018-00BFFF) Spider: A Large-Scale Human-Labeled Dataset for Complex and Cross-Domain Semantic Parsing and Text-to-SQL Task [[Paper](https://aclanthology.org/D18-1425.pdf)] [[Code](https://github.com/taoyds/spider)] [[Dataset](https://drive.google.com/file/d/1403EGqzIDoHMdQF4c9Bkyl7dZLZ5Wt6J/view)]
+* **Spider** | ![EMNLP2018](https://img.shields.io/badge/EMNLP2018-00BFFF) Spider: A Large-Scale Human-Labeled Dataset for Complex and Cross-Domain Semantic Parsing and Text-to-SQL Task [[Paper](https://aclanthology.org/D18-1425.pdf)] [[Code](https://github.com/taoyds/spider)] [[Dataset](https://drive.google.com/file/d/1403EGqzIDoHMdQF4c9Bkyl7dZLZ5Wt6J/view)]<br>
   *Cross-domain; #Example: 10,181; #DB: 200*
-* **WikiSQL** | ![arXiv2017](https://img.shields.io/badge/arXiv2017-B31B1B) Seq2SQL: Generating Structured Queries from Natural Language using Reinforcement Learning [[Paper](https://arxiv.org/pdf/1709.00103)] [[Code](https://github.com/salesforce/WikiSQL)] [[Dataset](https://github.com/salesforce/WikiSQL/tree/master/collection)]
+* **WikiSQL** | ![arXiv2017](https://img.shields.io/badge/arXiv2017-B31B1B) Seq2SQL: Generating Structured Queries from Natural Language using Reinforcement Learning [[Paper](https://arxiv.org/pdf/1709.00103)] [[Code](https://github.com/salesforce/WikiSQL)] [[Dataset](https://github.com/salesforce/WikiSQL/tree/master/collection)]<br>
   *Cross-domain; #Example: 80,654; #DB: 26,521*
 
 ### Post-annotated Datasets
