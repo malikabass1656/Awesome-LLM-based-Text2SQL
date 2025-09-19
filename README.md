@@ -65,8 +65,9 @@ Before 2023, the focus is on a selection of representative traditional studies. 
 
 ## 📰 Surveys
 
-* ![TKDE](https://img.shields.io/badge/TKDE2025-FF6347?style=flat) Next-Generation Database Interfaces: A Survey of LLM-based Text-to-SQL [[Paper]()] [[Code]()]
+* ![TKDE](https://img.shields.io/badge/TKDE2025-FF6347) Next-Generation Database Interfaces: A Survey of LLM-based Text-to-SQL [[Paper]()] [[Code]()]
 * ![CSUR2025](https://img.shields.io/badge/CSUR2025-3CB371) A Survey on Employing Large Language Models for Text-to-SQL Tasks [[Paper]()]
+* ![TKDE](https://img.shields.io/badge/TKDE2025-FF6347?style=flat) A Survey of Text-to-SQL in the Era of LLMs: Where are We, and Where are We Going? [[Paper]()]
 * ![TKDE](https://img.shields.io/badge/TKDE2024-FF6347?style=flat) Natural Language Interfaces for Tabular Data Querying and Visualization: A Survey [[Paper]()]
 * ![arXiv2024](https://img.shields.io/badge/arXiv2024-B31B1B) Large Language Model Enhanced Text-to-SQL Generation: A Survey [[Paper]()]
 * ![VLDBJ2023](https://img.shields.io/badge/VLDBJ2023-4B0082) A Survey on Deep Learning Approaches for Text-to-SQL [[Paper]()]
@@ -110,7 +111,7 @@ In the era of LLMs, two benchmarks and their variants/extensions are widely reco
 |--------------|------------|----------------|------------|------|
 | ![arXiv2025](https://img.shields.io/badge/arXiv2025-B31B1B) AgenticData + Qwen3 | - | **44.5** | [[Paper](https://arxiv.org/pdf/2508.05002)] | 2025-08-07 |
 | ![ICLR2025](https://img.shields.io/badge/ICLR2025Workshop-7CFC00) ReFoRCE + o3 | **37.11** | 37.84 | [[Paper](https://openreview.net/pdf?id=OuFIfDBwQd)] | 2025-05-22 |
-| ![arXiv2024](https://img.shields.io/badge/arXiv2024-B31B1B) RSL-SQL + o3 | - | 33.09 | [[Paper](https://arxiv.org/pdf/2411.00073)] [[Code](https://github.com/Laqcce-cao/RSL-SQL)] | 2025-07-0 |
+| ![arXiv2024](https://img.shields.io/badge/arXiv2024-B31B1B) RSL-SQL + o3 | - | 33.09 | [[Paper](https://arxiv.org/pdf/2411.00073)] [[Code](https://github.com/Laqcce-cao/RSL-SQL)] | 2025-07-10 |
 | ![EMNLP2025](https://img.shields.io/badge/EMNLP2025-00BFFF) LinkAlign + DeepSeek-R1 | - | 33.09 | [[Paper](https://arxiv.org/pdf/2503.18596)] [[Code](https://github.com/Satissss/LinkAlign)] | 2025-04-27 |
 | ![ICLR2025](https://img.shields.io/badge/ICLR2025-7CFC00) Spider-Agent + Claude-3.7-Sonnet | - | 28.52 | [[Paper](https://openreview.net/pdf?id=XmProj9cPs)] [[Code](https://github.com/xlang-ai/Spider2)] | 2025-03-16 |
 
@@ -141,6 +142,16 @@ In the era of LLMs, two benchmarks and their variants/extensions are widely reco
 | DeepSeek-V3 | 15.15 | 2025-08-22 |
 
 ## 🗃️ Datasets
+
+**We categorize the datasets into *Original Datasets* and *Post-annotated Datasets*** based on whether they were released with the original dataset (question–SQL pairs) and databases, or developed by adapting existing datasets and databases with special settings. The *Post-annotated Datasets* rely on the databases from [Spider1.0](https://yale-lily.github.io/spider).
+
+### Original Datasets
+
+* **BIRD-CRITIC** | SWE-SQL: Illuminating LLM Pathways to Solve User SQL Issues in Real-World Applications
+
+### Post-annotated Datasets
+
+
 
 ## 🪴 Taxonomy
 
