@@ -40,10 +40,8 @@ A user asks a question about football leagues. The LLM takes this question toget
 >  - **[📈 Trends](#-trends)**
 >  - **[📰 Surveys](#-surveys)**
 >  - **[🗃️ Datasets](#-datasets)**
->    - [Original Datasets](#)
->      - [Long-context](#)
->    - [Post-annotated Datasets](#)
->      - [Robustness](#)
+>    - [Original Datasets](#-original-datasets)
+>    - [Post-annotated Datasets](#-post-annotated-datasets)
 >  - **[🪴 Taxonomy](#-taxonomy)**
 >    - [In-cotext Learning](#)
 >      - [Decomposition](#)
