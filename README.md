@@ -80,74 +80,55 @@ In the era of LLMs, two benchmarks and their variants/extensions are widely reco
 
 #### [BIRD](https://bird-bench.github.io/) - A Big Bench for Large-Scale Database Grounded Text-to-SQL
 
-<div style="overflow-x: auto;">
 
-| Date | Method/Model | Dev EX (%) | Test EX (%) | Institute | Paper/Code |
-|------|--------------|------------|-------------|-----------|------------|
-| 2025-07-14 | LongData-SQL | 74.32 | **77.53** | *LongShine AI Research* | Proprietary |
-| 2025-03-11 | AskData + GPT-4o | **75.36** | 77.14 | *AT&T CDO - DSAIR* | ![arXiv2025](https://img.shields.io/badge/arXiv2025-B31B1B) [[Paper](https://arxiv.org/pdf/2505.19988)] |
-| 2025-04-16 | CHASE-SQL + Gemini | 74.90 | 76.02 | *Google Cloud* | ![ICLR2025](https://img.shields.io/badge/ICLR2025-7CFC00) [[Paper](https://openreview.net/pdf?id=CvGqMD5OtX)] |
-| 2025-05-30 | TCDataAgent-SQL | 74.12 | 75.74 | *Tencent Cloud* | [[Report](https://cloud.tencent.com/developer/article/2537769)] |
-| 2025-02-27 | Contextual-SQL | 73.50 | 75.63 | *Contextual AI* | [[Report](https://contextual.ai/blog/open-sourcing-the-best-local-text-to-sql-system/)] [[Code](https://github.com/ContextualAI/bird-sql)] |
-| 2024-12-17 | XiYan-SQL | 73.34 | 75.63 | *Alibaba Cloud* | ![arXiv2024](https://img.shields.io/badge/arXiv2024-B31B1B) [[Paper](https://arxiv.org/pdf/2411.08599)] [[Code](https://github.com/XGenerationLab/XiYan-SQL)] |
-
-</div>
+| Date | Method/Model | Dev EX (%) | Test EX (%) | Paper/Code |
+|------|--------------|------------|-------------|------------|
+| 2025-07-14 | LongData-SQL | 74.32 | **77.53** | Proprietary |
+| 2025-03-11 | ![arXiv2025](https://img.shields.io/badge/arXiv2025-B31B1B) AskData + GPT-4o | **75.36** | 77.14 | [[Paper](https://arxiv.org/pdf/2505.19988)] |
+| 2025-04-16 | ![ICLR2025](https://img.shields.io/badge/ICLR2025-7CFC00) CHASE-SQL + Gemini | 74.90 | 76.02 | [[Paper](https://openreview.net/pdf?id=CvGqMD5OtX)] |
+| 2025-05-30 | TCDataAgent-SQL | 74.12 | 75.74 | [[Report](https://cloud.tencent.com/developer/article/2537769)] |
+| 2025-02-27 | Contextual-SQL | 73.50 | 75.63 | [[Report](https://contextual.ai/blog/open-sourcing-the-best-local-text-to-sql-system/)] [[Code](https://github.com/ContextualAI/bird-sql)] |
+| 2024-12-17 | ![arXiv2024](https://img.shields.io/badge/arXiv2024-B31B1B) XiYan-SQL | 73.34 | 75.63 | [[Paper](https://arxiv.org/pdf/2411.08599)] [[Code](https://github.com/XGenerationLab/XiYan-SQL)] |
 
 #### [Spider1.0](https://yale-lily.github.io/spider) - Semantic Parsing and Text-to-SQL Challenge
 
-<div style="overflow-x: auto;">
-
-| Date | Method/Model | Dev EX (%) | Test EX (%) | Institute | Paper/Code |
-|------|--------------|------------|-------------|-----------|------------|
-| 2023-11-02 | MiniSeek | - | **91.2** | *Seek AI Labs* | [[Report](https://www.seek.ai/blog/miniseek-first-model-to-surpass-90-accuracy-on-spider-test-benchmark)] |
-| 2023-08-20 | DAIL-SQL + GPT-4 | **82.4** | 86.6 | *Alibaba Group* | ![VLDB2024](https://img.shields.io/badge/VLDB2024-800080) [[Paper](https://www.vldb.org/pvldb/vol17/p1132-gao.pdf)] [[Code](https://github.com/BeachWang/DAIL-SQL)] |
-| 2023-04-21 | DIN-SQL + GPT-4 | 74.2 | 85.3 | *University of Alberta* | ![NeurIPS2025](https://img.shields.io/badge/NeurIPS2025-2E8B57) [[Paper](https://openreview.net/pdf?id=p53QDxSIc5)] [[Code](https://github.com/MohammadrezaPourreza/Few-shot-NL2SQL-with-prompting)] |
-| 2023-06-01 | C3 + ChatGPT | 81.8 | 82.3 | *Zhejiang University* | ![arXiv2023](https://img.shields.io/badge/arXiv2023-B31B1B) [[Paper](https://arxiv.org/pdf/2307.07306)] [[Code](https://github.com/bigbigwatermalon/C3SQL)] |
-| 2023-02-27 | RESDSQL-3B + NatSQL | 84.1 | 79.9 | *Renmin University of China* | ![AAAI2025](https://img.shields.io/badge/AAAI2025-006400) [[Paper](https://arxiv.org/pdf/2302.05965)] [[Code](https://github.com/RUCKBReasoning/RESDSQL)] |
-
-</div>
+| Date | Method/Model | Dev EX (%) | Test EX (%) | Paper/Code |
+|------|--------------|------------|-------------|------------|
+| 2023-11-02 | MiniSeek | - | **91.2** | [[Report](https://www.seek.ai/blog/miniseek-first-model-to-surpass-90-accuracy-on-spider-test-benchmark)] |
+| 2023-08-20 | DAIL-SQL + GPT-4 | **82.4** | 86.6 | ![VLDB2024](https://img.shields.io/badge/VLDB2024-800080) [[Paper](https://www.vldb.org/pvldb/vol17/p1132-gao.pdf)] [[Code](https://github.com/BeachWang/DAIL-SQL)] |
+| 2023-04-21 | DIN-SQL + GPT-4 | 74.2 | 85.3 | ![NeurIPS2025](https://img.shields.io/badge/NeurIPS2025-2E8B57) [[Paper](https://openreview.net/pdf?id=p53QDxSIc5)] [[Code](https://github.com/MohammadrezaPourreza/Few-shot-NL2SQL-with-prompting)] |
+| 2023-06-01 | C3 + ChatGPT | 81.8 | 82.3 | ![arXiv2023](https://img.shields.io/badge/arXiv2023-B31B1B) [[Paper](https://arxiv.org/pdf/2307.07306)] [[Code](https://github.com/bigbigwatermalon/C3SQL)] |
+| 2023-02-27 | RESDSQL-3B + NatSQL | 84.1 | 79.9 | ![AAAI2025](https://img.shields.io/badge/AAAI2025-006400) [[Paper](https://arxiv.org/pdf/2302.05965)] [[Code](https://github.com/RUCKBReasoning/RESDSQL)] |
 
 #### [Spider2.0](https://spider2-sql.github.io/) - Evaluating Language Models on Real-World Enterprise Text-to-SQL Workflows
 
-<div style="overflow-x: auto;">
-
-| Date | Method/Model | Snow Score | Lite Score (%) | Institute | Paper/Code |
-|------|--------------|------------|----------------|-----------|------------|
-| 2025-08-07 | AgenticData + Qwen3 | - | **44.5** | *Tsinghua University* | ![arXiv2025](https://img.shields.io/badge/arXiv2025-B31B1B) [[Paper](https://arxiv.org/pdf/2508.05002)] |
-| 2025-05-22 | ReFoRCE + o3 | **37.11** | 37.84 | *Hao AI Lab x Snowflake* | ![ICLR2025](https://img.shields.io/badge/ICLR2025Workshop-7CFC00) [[Paper](https://openreview.net/pdf?id=OuFIfDBwQd)] |
-| 2025-07-0 | RSL-SQL + o3 | - | 33.09 | *HUST VLR Lab* | ![arXiv2024](https://img.shields.io/badge/arXiv2024-B31B1B) [[Paper](https://arxiv.org/pdf/2411.00073)] [[Code](https://github.com/Laqcce-cao/RSL-SQL)] |
-| 2025-04-27 | LinkAlign + DeepSeek-R1 | - | 33.09 | *Renmin University of China* | ![EMNLP2025](https://img.shields.io/badge/EMNLP2025-00BFFF) [[Paper](https://arxiv.org/pdf/2503.18596)] [[Code](https://github.com/Satissss/LinkAlign)] |
-| 2025-03-16 | Spider-Agent + Claude-3.7-Sonnet | - | 28.52 | *University of Hong Kong* | ![ICLR2025](https://img.shields.io/badge/ICLR2025-7CFC00) [[Paper](https://openreview.net/pdf?id=XmProj9cPs)] [[Code](https://github.com/xlang-ai/Spider2)] |
-
-</div>
+| Date | Method/Model | Snow Score | Lite Score (%) | Paper/Code |
+|------|--------------|------------|----------------|------------|
+| 2025-08-07 | AgenticData + Qwen3 | - | **44.5** | ![arXiv2025](https://img.shields.io/badge/arXiv2025-B31B1B) [[Paper](https://arxiv.org/pdf/2508.05002)] |
+| 2025-05-22 | ReFoRCE + o3 | **37.11** | 37.84 | ![ICLR2025](https://img.shields.io/badge/ICLR2025Workshop-7CFC00) [[Paper](https://openreview.net/pdf?id=OuFIfDBwQd)] |
+| 2025-07-0 | RSL-SQL + o3 | - | 33.09 | ![arXiv2024](https://img.shields.io/badge/arXiv2024-B31B1B) [[Paper](https://arxiv.org/pdf/2411.00073)] [[Code](https://github.com/Laqcce-cao/RSL-SQL)] |
+| 2025-04-27 | LinkAlign + DeepSeek-R1 | - | 33.09 | ![EMNLP2025](https://img.shields.io/badge/EMNLP2025-00BFFF) [[Paper](https://arxiv.org/pdf/2503.18596)] [[Code](https://github.com/Satissss/LinkAlign)] |
+| 2025-03-16 | Spider-Agent + Claude-3.7-Sonnet | - | 28.52 | ![ICLR2025](https://img.shields.io/badge/ICLR2025-7CFC00) [[Paper](https://openreview.net/pdf?id=XmProj9cPs)] [[Code](https://github.com/xlang-ai/Spider2)] |
 
 #### [BIRD-CRITIC](https://bird-critic.github.io/) - Can LLMs Fix User Issues in Real-World Database Applications?
 
-<div style="overflow-x: auto;">
-
-| Date | Model | SR (%) | Institute |
-|------|-------|--------|----------|
-| 2025-06-10 | ByteBrain-Agent | **43.33** | *ByteDance x RUC* |
-| 2025-09-04 | GPT-5-High | 34.96 | *OpenAI* |
-| 2025-07-18 | grok-4 | 33.68 | *xAI* |
-| 2025-04-20 | DeepSeek-R1 | 33.51 | *DeepSeek* |
-| 2025-04-20 | o3-Mini | 33.33 | *OpenAI* |
-
-</div>
+| Date | Model | SR (%) |
+|------|-------|--------|
+| 2025-06-10 | ByteBrain-Agent | **43.33** |
+| 2025-09-04 | GPT-5-High | 34.96 |
+| 2025-07-18 | grok-4 | 33.68 |
+| 2025-04-20 | DeepSeek-R1 | 33.51 |
+| 2025-04-20 | o3-Mini | 33.33 |
 
 #### [BIRD-INTERACT](https://bird-interact.github.io/) - Re-imagining Text-to-SQL Evaluation via Lens of Dynamic Interactions
 
-<div style="overflow-x: auto;">
-
-| Date | Model/Method | Reward | Institute |
-|------|--------------|--------|----------|
-| 2025-08-22 | Gemini-2.5-Pro | **20.92** | *Google* |
-| 2025-08-22 | o3-Mini | 20.27 | *OpenAI* |
-| 2025-08-22 | Claude-Sonnet-4 | 18.35 | *Anthropic* |
-| 2025-08-22 | Qwen-3-Coder-480B | 17.75 | *Qwen Team* |
-| 2025-08-22 | DeepSeek-V3 | 15.15 | *DeepSeek* |
-
-</div>
+| Date | Model/Method | Reward |
+|------|--------------|--------|
+| 2025-08-22 | Gemini-2.5-Pro | **20.92** |
+| 2025-08-22 | o3-Mini | 20.27 |
+| 2025-08-22 | Claude-Sonnet-4 | 18.35 |
+| 2025-08-22 | Qwen-3-Coder-480B | 17.75 |
+| 2025-08-22 | DeepSeek-V3 | 15.15 |
 
 ## 🗃️ Datasets
 
