@@ -12,7 +12,7 @@ This repository provides a comprehensive collection of research papers, benchmar
 
 🤗 **You are vey welcome to contribute to this repository** by launching an issue or a pull request. If you find any missing resources or come across interesting new research works, please don’t hesitate to open an issue or submit a PR!
 
-📫 **Contact us via emails:** Please drop an email   `zijin[dot]hong[at]connect[dot]polyu[dot]hk`,  `qinggang[dot]zhang[at]polyu[dot]edu[dot]hk`
+📫 **Contact us via emails:**  `zijin[dot]hong[at]connect[dot]polyu[dot]hk`
 
 **📃 Please [cite our paper](#-citation)** if you find our survey or repository helpful!
 
@@ -81,6 +81,14 @@ In the era of LLMs, two benchmarks and their variants/extensions are widely reco
 #### [BIRD](https://bird-bench.github.io/) - A Big Bench for Large-Scale Database Grounded Text-to-SQL
 
 <div style="overflow-x: auto; font-size: 14px;"> <table> <thead> <tr> <th style="min-width:160px;">Method/Model</th> <th style="min-width:100px;">Dev EX (%)</th> <th style="min-width:100px;">Test EX (%)</th> <th style="min-width:300px;">Institute - Paper/Code</th> <th style="min-width:90px;">Date</th> </tr> </thead> <tbody> <tr> <td>LongData-SQL</td> <td>74.32</td> <td><b>77.53</b></td> <td><i>LongShine AI Research</i> - Proprietary</td> <td>2025-07-14</td> </tr> <tr> <td>AskData + GPT-4o</td> <td><b>75.36</b></td> <td>77.14</td> <td><i>AT&amp;T CDO - DSAIR</i> - <img src="https://img.shields.io/badge/arXiv2025-B31B1B"> <a href="https://arxiv.org/pdf/2505.19988">[Paper]</a></td> <td>2025-03-11</td> </tr> <tr> <td>CHASE-SQL + Gemini</td> <td>74.90</td> <td>76.02</td> <td><i>Google Cloud</i> - <img src="https://img.shields.io/badge/ICLR2025-7CFC00"> <a href="https://openreview.net/pdf?id=CvGqMD5OtX">[Paper]</a></td> <td>2025-04-16</td> </tr> <tr> <td>TCDataAgent-SQL</td> <td>74.12</td> <td>75.74</td> <td><i>Tencent Cloud</i> - <a href="https://cloud.tencent.com/developer/article/2537769">[Report]</a></td> <td>2025-05-30</td> </tr> <tr> <td>Contextual-SQL</td> <td>73.50</td> <td>75.63</td> <td><i>Contextual AI</i> - <a href="https://contextual.ai/blog/open-sourcing-the-best-local-text-to-sql-system/">[Report]</a> <a href="https://github.com/ContextualAI/bird-sql">[Code]</a></td> <td>2025-02-27</td> </tr> <tr> <td>XiYan-SQL</td> <td>73.34</td> <td>75.63</td> <td><i>Alibaba Cloud</i> - <img src="https://img.shields.io/badge/arXiv2024-B31B1B"> <a href="https://arxiv.org/pdf/2411.08599">[Paper]</a> <a href="https://github.com/XGenerationLab/XiYan-SQL">[Code]</a></td> <td>2024-12-17</td> </tr> </tbody> </table> </div>
+| Date       | Method/Model       | Dev EX (%) | Test EX (%) | Institute - Paper/Code                                       |
+| ---------- | ------------------ | ---------- | ----------- | ------------------------------------------------------------ |
+| 2025-07-14 | LongData-SQL       | 74.32      | **77.53**   | *LongShine AI Research* - Proprietary                        |
+| 2025-03-11 | AskData + GPT-4o   | **75.36**  | 77.14       | *AT&T CDO - DSAIR* - ![arXiv2025](https://img.shields.io/badge/arXiv2025-B31B1B) [[Paper](https://arxiv.org/pdf/2505.19988)] |
+| 2025-04-16 | CHASE-SQL + Gemini | 74.90      | 76.02       | *Google Cloud* - ![ICLR2025](https://img.shields.io/badge/ICLR2025-7CFC00) [[Paper](https://openreview.net/pdf?id=CvGqMD5OtX)] |
+| 2025-05-30 | TCDataAgent-SQL    | 74.12      | 75.74       | *Tencent Cloud* - [[Report](https://cloud.tencent.com/developer/article/2537769)] |
+| 2025-02-27 | Contextual-SQL     | 73.50      | 75.63       | *Contextual AI* - [[Report](https://contextual.ai/blog/open-sourcing-the-best-local-text-to-sql-system/)] [[Code](https://github.com/ContextualAI/bird-sql)] |
+| 2024-12-17 | XiYan-SQL          | 73.34      | 75.63       | *Alibaba Cloud* - ![arXiv2024](https://img.shields.io/badge/arXiv2024-B31B1B) [[Paper](https://arxiv.org/pdf/2411.08599)] [[Code](https://github.com/XGenerationLab/XiYan-SQL)] |
 
 #### [Spider1.0](https://yale-lily.github.io/spider) - Semantic Parsing and Text-to-SQL Challenge
 
