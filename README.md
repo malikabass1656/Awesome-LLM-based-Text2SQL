@@ -89,7 +89,17 @@ In the era of LLMs, two benchmarks and their variants/extensions are widely reco
 | 2025-02-27 | Contextual-SQL     | 73.50      | 75.63       | *Contextual AI* - [[Report](https://contextual.ai/blog/open-sourcing-the-best-local-text-to-sql-system/)] [[Code](https://github.com/ContextualAI/bird-sql)] |
 | 2024-12-17 | XiYan-SQL          | 73.34      | 75.63       | *Alibaba Cloud* - ![arXiv2024](https://img.shields.io/badge/arXiv2024-B31B1B) [[Paper](https://arxiv.org/pdf/2411.08599)] [[Code](https://github.com/XGenerationLab/XiYan-SQL)] |
 
-#### [Spider]() - Semantic Parsing and Text-to-SQL Challenge
+#### [Spider1.0](https://yale-lily.github.io/spider) - Semantic Parsing and Text-to-SQL Challenge
+
+| Date       | Method/Model        | Dev EX (%) | Test EX (%) | Paper/Code                                                   |
+| ---------- | ------------------- | ---------- | ----------- | ------------------------------------------------------------ |
+| 2023-11-02 | MiniSeek            | -          | **91.2**    | *Seek AI Labs* - [[Report](https://www.seek.ai/blog/miniseek-first-model-to-surpass-90-accuracy-on-spider-test-benchmark)] |
+| 2023-08-20 | DAIL-SQL + GPT-4    | **82.4**   | 86.6        | *Alibaba Group* - ![VLDB2024](https://img.shields.io/badge/VLDB2024-800080) [[Paper](https://www.vldb.org/pvldb/vol17/p1132-gao.pdf)] [[Code](https://github.com/BeachWang/DAIL-SQL)] |
+| 2023-04-21 | DIN-SQL + GPT-4     | 74.2       | 85.3        | *University of Alberta* - ![NeurIPS2025](https://img.shields.io/badge/NeurIPS2025-2E8B57) [[Paper](https://openreview.net/pdf?id=p53QDxSIc5)] [[Code](https://github.com/MohammadrezaPourreza/Few-shot-NL2SQL-with-prompting)] |
+| 2023-06-01 | C3 + ChatGPT        | 81.8       | 82.3        | *Zhejiang University* - ![arXiv2023](https://img.shields.io/badge/arXiv2023-B31B1B) [[Paper](https://arxiv.org/pdf/2307.07306)] [[Code](https://github.com/bigbigwatermalon/C3SQL)] |
+| 2023-02-27 | RESDSQL-3B + NatSQL | 84.1       | 79.9        | *Renmin University of China* - ![AAAI2025](https://img.shields.io/badge/AAAI2025-006400) [[Paper](https://arxiv.org/pdf/2302.05965)] [[Code](https://github.com/RUCKBReasoning/RESDSQL)] |
+
+#### [Spider2.0]()
 
 ## 🗃️ Datasets
 
