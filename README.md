@@ -185,7 +185,7 @@ In the era of LLMs, two benchmarks and their variants/extensions are widely reco
 
 ## 🪴 Taxonomy
 
-The implementation of recent LLM-based text-to-SQL methods primarily relies on in-context learning and fine-tuning, enabled by the release of both powerful proprietary and well-architected open-source LLMs. **A detailed categorization of text-to-SQL methods can be found in [our paper](https://arxiv.org/pdf/2406.08426#page=3), and subsequent latest research papers will be continually updated and aligned with this taxonomy.**  [[Paper]()] [[Code]()]
+The implementation of recent LLM-based text-to-SQL methods primarily relies on in-context learning and fine-tuning, enabled by the release of both powerful proprietary and well-architected open-source LLMs. **A detailed categorization of text-to-SQL methods can be found in [our paper](https://arxiv.org/pdf/2406.08426#page=3), and subsequent latest research papers will be continually updated and aligned with this taxonomy.** 
 
 ### In-context Learning
 
@@ -205,6 +205,31 @@ The implementation of recent LLM-based text-to-SQL methods primarily relies on i
 * ![Findings2020](https://img.shields.io/badge/ACL2024Findings-87CEFA) Before Generation, Align it! A Novel and Effective Strategy for Mitigating Hallucinations in Text-to-SQL Generation [[Paper](https://aclanthology.org/2024.findings-acl.324.pdf)] [[Code](https://github.com/quge2023/TA-SQL)]
 * ![arXiv2024](https://img.shields.io/badge/arXiv2024-B31B1B) Dubo-SQL: Diverse Retrieval-Augmented Generation and Fine Tuning for Text-to-SQL [[Paper](https://arxiv.org/pdf/2404.12560)] [[Code](https://github.com/mercatorhq/dubo-sql)]
 * ![ICDE2024](https://img.shields.io/badge/ICDE2025-9370DB) PURPLE: Making a Large Language Model a Better SQL Writer [[Paper](https://ieeexplore.ieee.org/abstract/document/10597914)]
+* ![arXiv2024](https://img.shields.io/badge/arXiv2024-B31B1B) PET-SQL: A Prompt-Enhanced Two-Round Refinement of Text-to-SQL with Cross-consistency [[Paper](https://arxiv.org/pdf/2403.09732)] [[Code](https://github.com/zhshLii/PETSQL)]
+* ![ACL2025](https://img.shields.io/badge/ACL2025Workshop-1E90FF) **ℛ**³: "This is My SQL, Are You With Me?" A Consensus-Based Multi-Agent System for Text-to-SQL Tasks [[Paper](https://aclanthology.org/2025.trl-1.4.pdf)] [[Code](https://github.com/1ring2rta/R3)]
+* ![ICDE2024](https://img.shields.io/badge/ICDE2025-9370DB) MetaSQL: A Generate-then-Rank Framework for Natural Language to SQL Translation [[Paper](https://ieeexplore.ieee.org/abstract/document/10597742)] [[Code](https://github.com/Kaimary/MetaSQL)]
+* ![EMNLP2024](https://img.shields.io/badge/EMNLP2024-00BFFF) Middleware for LLMs: Tools Are Instrumental for Language Agents in Complex Environments [[Paper](https://aclanthology.org/2024.emnlp-main.436.pdf)] [[Code](https://github.com/OSU-NLP-Group/Middleware)]
+* ![arXiv2024](https://img.shields.io/badge/arXiv2024-B31B1B) SQL-CRAFT: Text-to-SQL through Interactive Refinement and Enhanced Reasoning [[Paper](https://arxiv.org/pdf/2402.14851v1)]
+* ![ICML2025](https://img.shields.io/badge/ICML2025-228B22) Structure-Guided Large Language Models for Text-to-SQL Generation [[Paper](https://openreview.net/pdf?id=gT8JSEFqaS)]
+* ![Findings2020](https://img.shields.io/badge/ACL2024Findings-87CEFA) Knowledge-to-SQL: Enhancing SQL Generation with Data Expert LLM [[Paper](https://aclanthology.org/2024.findings-acl.653.pdf)] [[Code](https://github.com/Rcrossmeister/Knowledge-to-SQL)]
+* ![Findings2024](https://img.shields.io/badge/EMNLP2024Findings-87CEFA) Improving Demonstration Diversity by Human-Free Fusing for Text-to-SQL [[Paper](https://aclanthology.org/2024.findings-emnlp.65.pdf)] [[Code](https://github.com/zirui-HIT/Fused)]
+* ![Findings2020](https://img.shields.io/badge/ACL2024Findings-87CEFA) Decomposition for Enhancing Attention: Improving LLM-based Text-to-SQL through Workflow Paradigm [[Paper](https://aclanthology.org/2024.findings-acl.641.pdf)] [[Code](https://github.com/FlyingFeather/DEA-SQL)]
+* ![COLING2025](https://img.shields.io/badge/COLING2025-00CED1) MAC-SQL: A Multi-Agent Collaborative Framework for Text-to-SQL [[Paper](https://aclanthology.org/2025.coling-main.36.pdf)] [[Code](https://github.com/wbbeyourself/MAC-SQL)]
+* ![Findings2023](https://img.shields.io/badge/EMNLP2023Findings-87CEFA) ACT-SQL: In-Context Learning for Text-to-SQL with Automatically-Generated Chain-of-Thought [[Paper](https://aclanthology.org/2023.findings-emnlp.227.pdf)] [[Code](https://github.com/X-LANCE/text2sql-GPT)]
+* ![Findings2023](https://img.shields.io/badge/EMNLP2023Findings-87CEFA) Selective Demonstrations for Cross-domain Text-to-SQL [[Paper](https://aclanthology.org/2023.findings-emnlp.944.pdf)] [[Code](https://github.com/shuaichenchang/ODIS-Text-to-SQL)]
+* ![VLDB2024](https://img.shields.io/badge/VLDB2024-800080) Text-to-SQL Empowered by Large Language Models: A Benchmark Evaluation [[Paper](https://www.vldb.org/pvldb/vol17/p1132-gao.pdf)] [[Code](https://github.com/BeachWang/DAIL-SQL)]
+* ![arXiv2023](https://img.shields.io/badge/arXiv2023-B31B1B) C3: Zero-shot Text-to-SQL with ChatGPT [[Paper](https://arxiv.org/pdf/2307.07306)] [[Code](https://github.com/bigbigwatermalon/C3SQL)]
+* ![ICONIP2023](https://img.shields.io/badge/ICONIP2023-8FBC8F) Retrieval-augmented GPT-3.5-based Text-to-SQL Framework with Sample-aware Prompting and Dynamic Revision Chain [[Paper](https://link.springer.com/chapter/10.1007/978-981-99-8076-5_25)]
+* ![TMLR2024](https://img.shields.io/badge/TMLR2024-556B2F) SQL-PaLM: Improved Large Language Model Adaptation for Text-to-SQL [[Paper](https://openreview.net/pdf?id=rlloVZoKrX)]
+* ![EMNLP2023](https://img.shields.io/badge/EMNLP2023-00BFFF) Exploring Chain of Thought Style Prompting for Text-to-SQL [[Paper](https://aclanthology.org/2023.emnlp-main.327.pdf)]
+* ![Findings2023](https://img.shields.io/badge/EMNLP2023Findings-87CEFA) Enhancing Text-to-SQL Capabilities of Large Language Models: A Study on Prompt Design Strategies [[Paper](https://aclanthology.org/2023.findings-emnlp.996.pdf)]
+* ![EMNLP2023](https://img.shields.io/badge/EMNLP2023-00BFFF) StructGPT: A General Framework for Large Language Model to Reason over Structured Data [[Paper](https://aclanthology.org/2023.emnlp-main.574.pdf)] [[Code](https://github.com/RUCAIBox/StructGPT)] 
+* ![NeurIPS2023](https://img.shields.io/badge/NeurIPS2023-2E8B57) DIN-SQL: Decomposed In-Context Learning of Text-to-SQL with Self-Correction [[Paper](https://openreview.net/pdf?id=p53QDxSIc5)] [[Code](https://github.com/MohammadrezaPourreza/Few-shot-NL2SQL-with-prompting)]
+* ![PRICAI2023](https://img.shields.io/badge/PRICAI2023-8FBC8F) Prompting GPT-3.5 for Text-to-SQL with De-semanticization and Skeleton Retrieval [[Paper](https://link.springer.com/chapter/10.1007/978-981-99-7022-3_23)]
+* ![ICLR2024](https://img.shields.io/badge/ICLR2025-7CFC00) Teaching Large Language Models to Self-Debug [[Paper](https://openreview.net/pdf?id=KuPixIqPiq)]
+* ![ICML2023](https://img.shields.io/badge/ICML2023-228B22) LEVER: Learning to Verify Language-to-Code Generation with Execution [[Paper](https://openreview.net/pdf?id=Gj3zN9zs4v)] [[Code](https://github.com/niansong1996/lever)]
+* ![ICML2023](https://img.shields.io/badge/ICML2023-228B22) Coder Reviewer Reranking for Code Generation [[Paper](https://openreview.net/pdf?id=tgXxVlWkmb)] 
+* ![EMNLP2022](https://img.shields.io/badge/EMNLP2022-00BFFF) Natural Language to Code Translation with Execution [[Paper](https://aclanthology.org/2022.emnlp-main.231.pdf)] [[Code](https://github.com/facebookresearch/mbr-exec)]
 
 ### Fine-tuning
 
