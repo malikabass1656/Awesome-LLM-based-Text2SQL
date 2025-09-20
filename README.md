@@ -248,6 +248,13 @@ The implementation of recent LLM-based text-to-SQL methods primarily relies on i
 * ![VLDB2024](https://img.shields.io/badge/VLDB2024-800080) Text-to-SQL Empowered by Large Language Models: A Benchmark Evaluation [[Paper](https://www.vldb.org/pvldb/vol17/p1132-gao.pdf)] [[Code](https://github.com/BeachWang/DAIL-SQL)]
 * ![ICML2024](https://img.shields.io/badge/ICML2024-228B22) CLLMs: Consistency Large Language Models [[Paper](https://openreview.net/pdf?id=8uzBOVmh8H)] [[Code](https://github.com/hao-ai-lab/Consistency_LLM)]
 
+## 📦 Projects 
+
+* [SQLGlot](https://github.com/tobymao/sqlglot) [![GitHub Repo stars](https://img.shields.io/github/stars/tobymao/sqlglot?style=social)](https://github.com/premAI-io/tobymao/sqlglot)
+* [DB-GPT-Hub](https://github.com/eosphoros-ai/DB-GPT-Hub) [![GitHub Repo stars](https://img.shields.io/github/stars/eosphoros-ai/DB-GPT-Hub?style=social)](https://github.com/eosphoros-ai/DB-GPT-Hub/stargazers)
+* [Awesome-Text2SQL](https://github.com/eosphoros-ai/Awesome-Text2SQL) [![GitHub Repo stars](https://img.shields.io/github/stars/eosphoros-ai/Awesome-Text2SQL?style=social)](https://github.com/premAI-io/premsql/stargazers)
+* [PremSQL](https://github.com/premAI-io/premsql) [![GitHub Repo stars](https://img.shields.io/github/stars/premAI-io/premsql?style=social)](https://github.com/premAI-io/premsql/stargazers)
+
 ## 📃 Citation
 
 ```
