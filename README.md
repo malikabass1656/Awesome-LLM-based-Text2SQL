@@ -18,6 +18,7 @@ This repository provides a comprehensive collection of research papers, benchmar
 
 ## 🔥 News
 
+* **[2025-09-21]** 🔥🔥 Finished building the benchmarks, datasets, and taxonomy for this repository.
 * **[2025-09-14]** 🔥🔥 Repository launched based on our survey paper to keep track of recent progress in LLM-based text-to-SQL.
 * **[2025-09-02]** 🎉🎉 Our paper *"Next-Generation Database Interfaces: A Survey of LLM-based Text-to-SQL"* has been **accepted by *IEEE Transactions on Knowledge and Data Engineering (TKDE)*!**
 * **[2025-05-01]** 🎉🎉 Our paper *"Struture-Guided Large Language Models for Text-to-SQL Generation"* has been **accepted by *International Conference of Machine Learning (ICML)*!**
