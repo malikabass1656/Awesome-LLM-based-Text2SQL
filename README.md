@@ -150,7 +150,7 @@ In the era of LLMs, two benchmarks and their variants/extensions are widely reco
   *Knowledge-augmented, Long-context; #Example: 600; #DB: 95*
 * ![ICLR2025](https://img.shields.io/badge/ICLR2025-7CFC00) **Spider2.0** | Spider 2.0: Evaluating Language Models on Real-world Enterprise Text-to-SQL Workflows [[Paper]()] [[Code]()] [[Dataset]()]<br>
   *Knowledge-augmented, Long-context; #Example: 632; #DB: 213*
-* ![SIGMOD2025](https://img.shields.io/badge/SIGMOD2025-8A2BE2) **BULL** | FinSQL: Model-Agnostic LLMs-based Text-to-SQL Framework for Financial Analysis [[Paper](https://arxiv.org/pdf/2401.10506)] [[Code](https://github.com/bigbigwatermalon/FinSQL)] [[Dataset]()]<br>
+* ![SIGMOD2025](https://img.shields.io/badge/SIGMOD2025-8A2BE2) **BULL** | FinSQL: Model-Agnostic LLMs-based Text-to-SQL Framework for Financial Analysis [[Paper](https://arxiv.org/pdf/2401.10506)] [[Code](https://github.com/bigbigwatermalon/FinSQL)] [[Dataset](https://drive.google.com/file/d/1OtyFdH9cs-6bEVj8yKK4Zt53N52L_dBH/view?usp=sharing)]<br>
   *Knowledge-augmented, Long-context; #Example: 4,966; #DB: 3*
 * ![NeurIPS2023](https://img.shields.io/badge/NeurIPS2023-2E8B57) **BIRD** | Can LLM Already Serve as A Database Interface? A BIg Bench for Large-Scale Database Grounded Text-to-SQLs [[Paper](https://openreview.net/pdf?id=dI4wzAE6uV)] [[Code]()] [[Dataset]()]<br>
   *Cross-domain, Knowledge-augmented; #Example: 12,751; #DB: 95*
@@ -169,7 +169,19 @@ In the era of LLMs, two benchmarks and their variants/extensions are widely reco
 
 ### Post-annotated Datasets
 
-* 
+* ![ICLR2023](https://img.shields.io/badge/ICLR2023-7CFC00) **Dr. Spider** | Dr.Spider: A Diagnostic Evaluation Benchmark towards Text-to-SQL Robustness [[Paper](https://openreview.net/pdf?id=Wc5bmZZU9cy)] [[Code](https://github.com/awslabs/diagnostic-robustness-text-to-sql)]<br>
+  *Robustness; Perturbations in DB, query and SQL*
+* ![ACL2022](https://img.shields.io/badge/ACL2022-1E90FF) **ADVETA** | Towards Robustness of Text-to-SQL Models Against Natural and Realistic Adversarial Table Perturbation [[Paper](https://aclanthology.org/2022.acl-long.142.pdf)] [[Code](https://github.com/microsoft/ContextualSP/tree/master/robustness_of_text_to_sql)] [[Dataset](https://github.com/microsoft/ContextualSP/blob/master/robustness_of_text_to_sql/adveta_1.0.zip)]<br>
+  *Robustness; Adversarial table perturbation*
+* ![Findings2022](https://img.shields.io/badge/NAACL2022Findings-87CEFA) **Spider-SS&CG** | Measuring and Improving Compositional Generalization in Text-to-SQL via Component Alignment [[Paper](https://aclanthology.org/2022.findings-naacl.62.pdf)] [[Code](https://github.com/ygan/SpiderSS-SpiderCG)] [[Dataset](https://github.com/ygan/SpiderSS-SpiderCG/tree/main/Spider-SS)]<br>
+  *Context-dependent; Splitting example into sub-examples*
+* ![EMNLP2021](https://img.shields.io/badge/EMNLP2021-00BFFF) **Spider-DK** | Exploring Underexplored Limitations of Cross-Domain Text-to-SQL Generalization [[Paper](https://aclanthology.org/2021.emnlp-main.702.pdf)] [[Code](https://github.com/ygan/Spider-DK)]<br>*Knowledge-augmented; Adding domain knowledge*
+*  ![ACL2021](https://img.shields.io/badge/ACL2021-1E90FF) **Spider-SYN** | Towards Robustness of Text-to-SQL Models against Synonym Substitution [[Paper](https://aclanthology.org/2021.acl-long.195.pdf)] [[Code](https://github.com/ygan/Spider-Syn)]<br>*Knowledge-augmented; Adding domain knowledge*
+* ![Findings2020](https://img.shields.io/badge/EMNLP2020Findings-87CEFA) **Spider-Vietnames** | A Pilot Study of Text-to-SQL Semantic Parsing for Vietnamese [[Paper](https://aclanthology.org/2020.findings-emnlp.364.pdf)] [[Code](https://github.com/VinAIResearch/ViText2SQL)]<br>
+  *Cross-lingual; Vietnamese version of Spider*
+* ![NAACL2021](https://img.shields.io/badge/NAACL2021-4682B4) **Spider-Realistic** | Structure-Grounded Pretraining for Text-to-SQL [[Paper](https://aclanthology.org/2021.naacl-main.105.pdf)] [[Dataset](https://zenodo.org/records/5205322)]<br>*Robustness; Removing column names in question*
+* ![EMNLP2019](https://img.shields.io/badge/EMNLP2019-00BFFF) **CSpider** | A Pilot Study for Chinese SQL Semantic Parsing [[Paper](https://aclanthology.org/D19-1377.pdf)] [[Code](https://github.com/taolusi/chisp)]<br>*Cross-lingual; Chinese version of Spider*
+* ![EMNLP2019](https://img.shields.io/badge/EMNLP2019-00BFFF) **SParC** | SParC: Cross-Domain Semantic Parsing in Context [[Paper](https://aclanthology.org/P19-1443.pdf)] [[Code](https://github.com/taoyds/sparc)] [[Dataset](https://drive.usercontent.google.com/download?id=1Uu7NMHTR1tdQw1t7bAuM7OPU4LElVKfg&export=download&authuser=0)]<br>*Context-dependent; Annotate conversational contents*
 
 ## 🪴 Taxonomy
 
