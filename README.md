@@ -64,7 +64,7 @@ Before 2023, the focus is on a selection of representative traditional studies. 
 
 ## 📰 Surveys
 
-* ![TKDE](https://img.shields.io/badge/TKDE2025-FF6347) Next-Generation Database Interfaces: A Survey of LLM-based Text-to-SQL [[Paper]()] [[Code]()]
+* ![TKDE](https://img.shields.io/badge/TKDE2025-FF6347) Next-Generation Database Interfaces: A Survey of LLM-based Text-to-SQL [[Paper](https://ieeexplore.ieee.org/abstract/document/11160657)] [[Code]()]
 * ![CSUR2025](https://img.shields.io/badge/CSUR2025-3CB371) A Survey on Employing Large Language Models for Text-to-SQL Tasks [[Paper]()]
 * ![TKDE](https://img.shields.io/badge/TKDE2025-FF6347?style=flat) A Survey of Text-to-SQL in the Era of LLMs: Where are We, and Where are We Going? [[Paper]()]
 * ![TKDE](https://img.shields.io/badge/TKDE2024-FF6347?style=flat) Natural Language Interfaces for Tabular Data Querying and Visualization: A Survey [[Paper]()]
@@ -148,7 +148,7 @@ In the era of LLMs, two benchmarks and their variants/extensions are widely reco
 
 * ![arXiv2025](https://img.shields.io/badge/arXiv2025-B31B1B) **BIRD-CRITIC** | SWE-SQL: Illuminating LLM Pathways to Solve User SQL Issues in Real-World Applications [[Paper]()] [[Code]()] [[Dataset]()]<br>
   *Knowledge-augmented, Long-context; #Example: 600; #DB: 95*
-* ![ICLR2025](https://img.shields.io/badge/ICLR2025-7CFC00) **Spider2.0** | Spider 2.0: Evaluating Language Models on Real-world Enterprise Text-to-SQL Workflows [[Paper]()] [[Code]()] [[Dataset]()]<br>
+* ![ICLR2025](https://img.shields.io/badge/ICLR2025-7CFC00) **Spider2.0** | Spider 2.0: Evaluating Language Models on Real-world Enterprise Text-to-SQL Workflows [[Paper](https://openreview.net/pdf?id=XmProj9cPs)] [[Code](https://github.com/xlang-ai/Spider2)] [[Dataset](https://github.com/xlang-ai/Spider2/blob/main/spider2-lite/spider2-lite.jsonl)]<br>
   *Knowledge-augmented, Long-context; #Example: 632; #DB: 213*
 * ![SIGMOD2025](https://img.shields.io/badge/SIGMOD2025-8A2BE2) **BULL** | FinSQL: Model-Agnostic LLMs-based Text-to-SQL Framework for Financial Analysis [[Paper](https://arxiv.org/pdf/2401.10506)] [[Code](https://github.com/bigbigwatermalon/FinSQL)] [[Dataset](https://drive.google.com/file/d/1OtyFdH9cs-6bEVj8yKK4Zt53N52L_dBH/view?usp=sharing)]<br>
   *Knowledge-augmented, Long-context; #Example: 4,966; #DB: 3*
@@ -185,12 +185,26 @@ In the era of LLMs, two benchmarks and their variants/extensions are widely reco
 
 ## 🪴 Taxonomy
 
-The implementation of recent LLM-based text-to-SQL methods primarily relies on in-context learning and fine-tuning, enabled by the release of both powerful proprietary and well-architected open-source LLMs. **A detailed categorization of text-to-SQL methods can be found in [our paper](https://arxiv.org/pdf/2406.08426#page=3), and subsequent latest research papers will be continually updated and aligned with this taxonomy.**
+The implementation of recent LLM-based text-to-SQL methods primarily relies on in-context learning and fine-tuning, enabled by the release of both powerful proprietary and well-architected open-source LLMs. **A detailed categorization of text-to-SQL methods can be found in [our paper](https://arxiv.org/pdf/2406.08426#page=3), and subsequent latest research papers will be continually updated and aligned with this taxonomy.**  [[Paper]()] [[Code]()]
 
 ### In-context Learning
 
 * ![EMNLP2025](https://img.shields.io/badge/EMNLP2025-00BFFF) LinkAlign: Scalable Schema Linking for Real-World Large-Scale Multi-Database Text-to-SQL  [[Paper](https://arxiv.org/pdf/2503.18596)] [[Code](https://github.com/Satissss/LinkAlign)]
 * ![ICLR2025](https://img.shields.io/badge/ICLR2025Workshop-7CFC00) ReFoRCE: A Text-to-SQL Agent with Self-Refinement, Consensus Enforcement, and Column Exploration [[Paper](https://openreview.net/pdf?id=OuFIfDBwQd)] [[Code](https://github.com/Snowflake-Labs/ReFoRCE)]
+* ![arXiv2025](https://img.shields.io/badge/arXiv2025-B31B1B) SAFE-SQL: Self-Augmented In-Context Learning with Fine-grained Example Selection for Text-to-SQL [[Paper](https://arxiv.org/pdf/2502.11438)]
+* ![COLING2025](https://img.shields.io/badge/COLING2025-00CED1) Gen-SQL: Efficient Text-to-SQL by Bridging Natural Language Question and Database Schema with Pseudo-Schema [[Paper](https://aclanthology.org/2025.coling-main.256.pdf)] [[Code](https://github.com/jieshi10/gensql)]
+* ![COLING2025](https://img.shields.io/badge/COLING2025-00CED1) In-Context Reinforcement Learning based Retrieval-Augmented Generation for Text-to-SQL  [[Paper](https://aclanthology.org/2025.coling-main.692.pdf)] 
+* ![ICLR2025](https://img.shields.io/badge/ICLR2025-7CFC00) Spider 2.0: Evaluating Language Models on Real-world Enterprise Text-to-SQL Workflows [[Paper](https://openreview.net/pdf?id=XmProj9cPs)] [[Code](https://github.com/xlang-ai/Spider2)]
+* ![arXiv2024](https://img.shields.io/badge/arXiv2024-B31B1B) RSL-SQL: Robust Schema Linking in Text-to-SQL Generation [[Paper](https://arxiv.org/pdf/2411.00073)] [[Code](https://github.com/Laqcce-cao/RSL-SQL)]
+* ![ICLR2025](https://img.shields.io/badge/ICLR2025-7CFC00) CHASE-SQL: Multi-Path Reasoning and Preference Optimized Candidate Selection in Text-to-SQL [[Paper](https://openreview.net/pdf?id=CvGqMD5OtX)]
+* ![arXiv2024](https://img.shields.io/badge/arXiv2024-B31B1B) E-SQL: Direct Schema Linking via Question Enrichment in Text-to-SQL [[Paper](https://arxiv.org/pdf/2409.16751)] [[Code](https://github.com/HasanAlpCaferoglu/E-SQL)]
+* ![NeurIPS202](https://img.shields.io/badge/NeurIPS2024Workshop-2E8B57) The Death of Schema Linking? Text-to-SQL in the Age of Well-Reasoned Language Models [[Paper](https://openreview.net/pdf?id=fglyh5pa7d)] 
+* ![VLDB2024](https://img.shields.io/badge/VLDB2024-800080) The Dawn of Natural Language to SQL: Are We Fully Ready? [[Paper](https://www.vldb.org/pvldb/vol17/p3318-luo.pdf)]
+* ![arXiv2024](https://img.shields.io/badge/arXiv2024-B31B1B) CHESS: Contextual Harnessing for Efficient SQL Synthesis [[Paper](https://arxiv.org/pdf/2405.16755)] [[Code](https://github.com/ShayanTalaei/CHESS)]
+* ![COLING2025](https://img.shields.io/badge/COLING2025-00CED1) MCS-SQL: Leveraging Multiple Prompts and Multiple-Choice Selection For Text-to-SQL Generation [[Paper](https://aclanthology.org/2025.coling-main.24.pdf)]
+* ![Findings2020](https://img.shields.io/badge/ACL2024Findings-87CEFA) Before Generation, Align it! A Novel and Effective Strategy for Mitigating Hallucinations in Text-to-SQL Generation [[Paper](https://aclanthology.org/2024.findings-acl.324.pdf)] [[Code](https://github.com/quge2023/TA-SQL)]
+* ![arXiv2024](https://img.shields.io/badge/arXiv2024-B31B1B) Dubo-SQL: Diverse Retrieval-Augmented Generation and Fine Tuning for Text-to-SQL [[Paper](https://arxiv.org/pdf/2404.12560)] [[Code](https://github.com/mercatorhq/dubo-sql)]
+* ![ICDE2024](https://img.shields.io/badge/ICDE2025-9370DB) PURPLE: Making a Large Language Model a Better SQL Writer [[Paper](https://ieeexplore.ieee.org/abstract/document/10597914)]
 
 ### Fine-tuning
 
