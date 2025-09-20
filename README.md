@@ -109,7 +109,7 @@ In the era of LLMs, two benchmarks and their variants/extensions are widely reco
 | Method/Model | Snow Score | Lite Score | Paper/Code | Date |
 |--------------|------------|----------------|------------|------|
 | ![arXiv2025](https://img.shields.io/badge/arXiv2025-B31B1B) AgenticData + Qwen3 | - | **44.5** | [[Paper](https://arxiv.org/pdf/2508.05002)] | 2025-08-07 |
-| ![ICLR2025](https://img.shields.io/badge/ICLR2025Workshop-7CFC00) ReFoRCE + o3 | **37.11** | 37.84 | [[Paper](https://openreview.net/pdf?id=OuFIfDBwQd)] | 2025-05-22 |
+| ![ICLR2025](https://img.shields.io/badge/ICLR2025Workshop-7CFC00) ReFoRCE + o3 | **37.11** | 37.84 | [[Paper](https://openreview.net/pdf?id=OuFIfDBwQd)] [[Code](https://github.com/Snowflake-Labs/ReFoRCE)] | 2025-05-22 |
 | ![arXiv2024](https://img.shields.io/badge/arXiv2024-B31B1B) RSL-SQL + o3 | - | 33.09 | [[Paper](https://arxiv.org/pdf/2411.00073)] [[Code](https://github.com/Laqcce-cao/RSL-SQL)] | 2025-07-10 |
 | ![EMNLP2025](https://img.shields.io/badge/EMNLP2025-00BFFF) LinkAlign + DeepSeek-R1 | - | 33.09 | [[Paper](https://arxiv.org/pdf/2503.18596)] [[Code](https://github.com/Satissss/LinkAlign)] | 2025-04-27 |
 | ![ICLR2025](https://img.shields.io/badge/ICLR2025-7CFC00) Spider-Agent + Claude-3.7-Sonnet | - | 28.52 | [[Paper](https://openreview.net/pdf?id=XmProj9cPs)] [[Code](https://github.com/xlang-ai/Spider2)] | 2025-03-16 |
@@ -185,11 +185,17 @@ In the era of LLMs, two benchmarks and their variants/extensions are widely reco
 
 ## 🪴 Taxonomy
 
-The text-to-SQL methods are carefully categorized based on our paper.
+The implementation of recent LLM-based text-to-SQL methods primarily relies on in-context learning and fine-tuning, enabled by the release of both powerful proprietary and well-architected open-source LLMs. **A detailed categorization of text-to-SQL methods can be found in [our paper](https://arxiv.org/pdf/2406.08426#page=3), and subsequent latest research papers will be continually updated and aligned with this taxonomy.**
 
 ### In-context Learning
 
+* ![EMNLP2025](https://img.shields.io/badge/EMNLP2025-00BFFF) LinkAlign: Scalable Schema Linking for Real-World Large-Scale Multi-Database Text-to-SQL  [[Paper](https://arxiv.org/pdf/2503.18596)] [[Code](https://github.com/Satissss/LinkAlign)]
+* ![ICLR2025](https://img.shields.io/badge/ICLR2025Workshop-7CFC00) ReFoRCE: A Text-to-SQL Agent with Self-Refinement, Consensus Enforcement, and Column Exploration [[Paper](https://openreview.net/pdf?id=OuFIfDBwQd)] [[Code](https://github.com/Snowflake-Labs/ReFoRCE)]
+
 ### Fine-tuning
+
+* ![ACL2025](https://img.shields.io/badge/ACL2025-1E90FF) SHARE: An SLM-based Hierarchical Action CorREction Assistant for Text-to-SQL [[Paper](https://aclanthology.org/2025.acl-long.552.pdf)] [[Code](https://github.com/quge2023/SHARE)] 
+* ![ICLR2025](https://img.shields.io/badge/ICLR2025-7CFC00) ROUTE: Robust Multitask Tuning and Collaboration for Text-to-SQL [[Paper](https://openreview.net/pdf?id=BAglD6NGy0)] [[Code](https://github.com/D2I-ai/Route)]
 
 ## 📃 Citation
 
