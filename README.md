@@ -44,10 +44,8 @@ A user asks a question about football leagues. The LLM takes this question toget
 >    - [Original Datasets](#original-datasets)
 >    - [Post-annotated Datasets](#post-annotated-datasets)
 >  - **[🪴 Taxonomy](#-taxonomy)**
->    - [In-cotext Learning](#)
->      - [Decomposition](#)
->    - [Fine-tuning](#)
->      - [Pre-training](#)
+>    - [In-cotext Learning](#in-context-learning)
+>    - [Fine-tuning](#fine-tuning)
 >  - **[📃 Citation](#-citation)**
 
 ---
@@ -235,6 +233,18 @@ The implementation of recent LLM-based text-to-SQL methods primarily relies on i
 
 * ![ACL2025](https://img.shields.io/badge/ACL2025-1E90FF) SHARE: An SLM-based Hierarchical Action CorREction Assistant for Text-to-SQL [[Paper](https://aclanthology.org/2025.acl-long.552.pdf)] [[Code](https://github.com/quge2023/SHARE)] 
 * ![ICLR2025](https://img.shields.io/badge/ICLR2025-7CFC00) ROUTE: Robust Multitask Tuning and Collaboration for Text-to-SQL [[Paper](https://openreview.net/pdf?id=BAglD6NGy0)] [[Code](https://github.com/D2I-ai/Route)]
+* ![arXiv2024](https://img.shields.io/badge/arXiv2024-B31B1B) A Preview of XiYan-SQL: A Multi-Generator Ensemble Framework for Text-to-SQL [[Paper](https://arxiv.org/pdf/2411.08599)] [[Code](https://github.com/XGenerationLab/XiYan-SQL)]
+* ![NAACL2025](https://img.shields.io/badge/NAACL2025-4682B4) MSc-SQL: Multi-Sample Critiquing Small Language Models For Text-To-SQL Translation [[Paper](https://aclanthology.org/2025.naacl-long.107.pdf)] [[Code](https://github.com/layer6ai-labs/msc-sql)]
+* ![arXiv2025](https://img.shields.io/badge/arXiv2025-B31B1B) Knapsack Optimization-based Schema Linking for LLM-based Text-to-SQL Generation [[Paper](https://arxiv.org/pdf/2502.12911)]
+* ![Findings2024](https://img.shields.io/badge/EMNLP2024Findings-87CEFA) DTS-SQL: Decomposed Text-to-SQL with Small Large Language Models [[Paper](https://aclanthology.org/2024.findings-emnlp.481.pdf)] [[Code](https://github.com/MohammadrezaPourreza/DTS-SQL)]
+* ![COLING2025](https://img.shields.io/badge/COLING2025-00CED1) MAC-SQL: A Multi-Agent Collaborative Framework for Text-to-SQL [[Paper](https://aclanthology.org/2025.coling-main.36.pdf)] [[Code](https://github.com/wbbeyourself/MAC-SQL)]
+* ![NeurIPS202](https://img.shields.io/badge/NeurIPS2024Workshop-2E8B57) The Death of Schema Linking? Text-to-SQL in the Age of Well-Reasoned Language Models [[Paper](https://openreview.net/pdf?id=fglyh5pa7d)] 
+* ![arXiv2024](https://img.shields.io/badge/arXiv2024-B31B1B) Dubo-SQL: Diverse Retrieval-Augmented Generation and Fine Tuning for Text-to-SQL [[Paper](https://arxiv.org/pdf/2404.12560)] [[Code](https://github.com/mercatorhq/dubo-sql)]
+* ![COLM2024](https://img.shields.io/badge/COLM2024-20B2AA) StructLM: Towards Building Generalist Models for Structured Knowledge Grounding [[Paper](https://openreview.net/pdf?id=EKBPn7no4y)] [[Code](https://github.com/TIGER-AI-Lab/StructLM)]
+* ![SIGMOD2024](https://img.shields.io/badge/SIGMOD2024-8A2BE2) CodeS: Towards Building Open-source Language Models for Text-to-SQL [[Paper](https://dl.acm.org/doi/10.1145/3654930)] [[Code](https://github.com/RUCKBReasoning/codes)]
+* ![ACL2024](https://img.shields.io/badge/ACL2024-1E90FF) Symbol-LLM: Towards Foundational Symbol-centric Interface For Large Language Models [[Paper](https://aclanthology.org/2024.acl-long.707.pdf)] [[Code](https://github.com/xufangzhi/Symbol-LLM)] 
+* ![VLDB2024](https://img.shields.io/badge/VLDB2024-800080) Text-to-SQL Empowered by Large Language Models: A Benchmark Evaluation [[Paper](https://www.vldb.org/pvldb/vol17/p1132-gao.pdf)] [[Code](https://github.com/BeachWang/DAIL-SQL)]
+* ![ICML2024](https://img.shields.io/badge/ICML2024-228B22) CLLMs: Consistency Large Language Models [[Paper](https://openreview.net/pdf?id=8uzBOVmh8H)] [[Code](https://github.com/hao-ai-lab/Consistency_LLM)]
 
 ## 📃 Citation
 
