@@ -47,6 +47,7 @@ A user asks a question about football leagues. The LLM takes this question toget
 >  - **[🪴 Taxonomy](#-taxonomy)**
 >    - [In-cotext Learning](#in-context-learning)
 >    - [Fine-tuning](#fine-tuning)
+>  - **[📦 Projects](#-projects)**
 >  - **[📃 Citation](#-citation)**
 
 ---
