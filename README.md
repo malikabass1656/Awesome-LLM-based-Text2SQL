@@ -191,6 +191,7 @@ The implementation of recent LLM-based text-to-SQL methods primarily relies on i
 
 * ![EMNLP2025](https://img.shields.io/badge/EMNLP2025-00BFFF) LinkAlign: Scalable Schema Linking for Real-World Large-Scale Multi-Database Text-to-SQL  [[Paper](https://arxiv.org/pdf/2503.18596)] [[Code](https://github.com/Satissss/LinkAlign)]
 * ![ICLR2025](https://img.shields.io/badge/ICLR2025Workshop-7CFC00) ReFoRCE: A Text-to-SQL Agent with Self-Refinement, Consensus Enforcement, and Column Exploration [[Paper](https://openreview.net/pdf?id=OuFIfDBwQd)] [[Code](https://github.com/Snowflake-Labs/ReFoRCE)]
+* ![arXiv2025](https://img.shields.io/badge/arXiv2025-B31B1B) CSC-SQL: Corrective Self-Consistency in Text-to-SQL via Reinforcement Learning [[Paper](https://arxiv.org/pdf/2505.13271)] [[Code](https://github.com/CycloneBoy/csc_sql)]
 * ![arXiv2025](https://img.shields.io/badge/arXiv2025-B31B1B) SAFE-SQL: Self-Augmented In-Context Learning with Fine-grained Example Selection for Text-to-SQL [[Paper](https://arxiv.org/pdf/2502.11438)]
 * ![COLING2025](https://img.shields.io/badge/COLING2025-00CED1) Gen-SQL: Efficient Text-to-SQL by Bridging Natural Language Question and Database Schema with Pseudo-Schema [[Paper](https://aclanthology.org/2025.coling-main.256.pdf)] [[Code](https://github.com/jieshi10/gensql)]
 * ![COLING2025](https://img.shields.io/badge/COLING2025-00CED1) In-Context Reinforcement Learning based Retrieval-Augmented Generation for Text-to-SQL  [[Paper](https://aclanthology.org/2025.coling-main.692.pdf)] 
