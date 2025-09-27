@@ -86,6 +86,7 @@ In the era of LLMs, two benchmarks and their variants/extensions are widely reco
 | ![Proprietary](https://img.shields.io/badge/Proprietary-lightgray) LongData-SQL | 74.32 | **77.53** | [<u>Proprietary</u>] | 2025-07-14 |
 | ![arXiv2025](https://img.shields.io/badge/arXiv2025-B31B1B) AskData + GPT-4o | **75.36** | 77.14 | [[Paper](https://arxiv.org/pdf/2505.19988)] | 2025-03-11 |
 | ![ICLR2025](https://img.shields.io/badge/ICLR2025-7CFC00) CHASE-SQL + Gemini | 74.90 | 76.02 | [[Paper](https://openreview.net/pdf?id=CvGqMD5OtX)] | 2025-04-16 |
+| ![Proprietary](https://img.shields.io/badge/Proprietary-lightgray) JoyDataAgent-SQL | 74.25 | 75.74 | [[Report](https://github.com/jd-opensource/joyagent-jdgenie/blob/data_agent/README_DataAgent.md)] [[Code](https://github.com/jd-opensource/joyagent-jdgenie/tree/data_agent)] | 2025-09-22 |
 | ![Proprietary](https://img.shields.io/badge/Proprietary-lightgray) TCDataAgent-SQL | 74.12 | 75.74 | [[Report](https://cloud.tencent.com/developer/article/2537769)] | 2025-05-30 |
 | ![Proprietary](https://img.shields.io/badge/Proprietary-lightgray) Contextual-SQL | 73.50 | 75.63 | [[Report](https://contextual.ai/blog/open-sourcing-the-best-local-text-to-sql-system/)] [[Code](https://github.com/ContextualAI/bird-sql)] | 2025-02-27 |
 | ![arXiv2024](https://img.shields.io/badge/arXiv2024-B31B1B) XiYan-SQL | 73.34 | 75.63 | [[Paper](https://arxiv.org/pdf/2411.08599)] [[Code](https://github.com/XGenerationLab/XiYan-SQL)] | 2024-12-17 |
